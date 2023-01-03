@@ -1,0 +1,28 @@
+.DiceRoll {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+.DiceRoll_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.DiceRoll button {
+    align-self: center;
+    text-align:inherit;
+    width: 15em;
+    height: 1.5em;
+    padding: 1.5em 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 3em;
+}
+
+.DiceRoll button:hover {
+    background-color: darkslateblue;
+    cursor : pointer;
+}
