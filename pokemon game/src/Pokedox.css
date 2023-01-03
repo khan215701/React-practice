@@ -1,0 +1,17 @@
+.pokedox {
+    text-align: center;
+}
+.pokedox-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.pokedox-winner {
+    color: green;
+}
+
+.pokedox-loser {
+    color: brown;
+}
